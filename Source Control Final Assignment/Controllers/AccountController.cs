@@ -9,13 +9,16 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
+using NLog;
 using Source_Control_Final_Assignment.Models;
 
 namespace Source_Control_Final_Assignment.Controllers
 {
+    
     [Authorize]
     public class AccountController : Controller
     {
+        public readonly Logger Logger = NLog.LogManager.GetCurrentClassLogger();
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 
@@ -80,8 +83,10 @@ namespace Source_Control_Final_Assignment.Controllers
             switch (result)
             {
                 case SignInStatus.Success:
+                    Logger.Info("User Login with Email: " + model.Email);
                     return RedirectToLocal(returnUrl);
                 case SignInStatus.LockedOut:
+                    Logger.Info("User LockedOut with Name: " + model.Email);
                     return View("Lockout");
                 case SignInStatus.RequiresVerification:
                     return RedirectToAction("SendCode", new { ReturnUrl = returnUrl, RememberMe = model.RememberMe });
@@ -175,13 +180,13 @@ namespace Source_Control_Final_Assignment.Controllers
                 if (result.Succeeded)
                 {
                     await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);
-                    
+
                     // For more information on how to enable account confirmation and password reset please visit https://go.microsoft.com/fwlink/?LinkID=320771
                     // Send an email with this link
                     // string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
                     // var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
                     // await UserManager.SendEmailAsync(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>");
-
+                    Logger.Info("User created with Email: " + model.Email);
                     return RedirectToAction("Index", "Home");
                 }
                 AddErrors(result);

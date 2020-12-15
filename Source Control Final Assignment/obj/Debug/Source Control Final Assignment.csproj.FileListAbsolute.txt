@@ -110,3 +110,6 @@ D:\C#Fundamentals\Source Control Final Assignment\obj\Debug\Source_Control_Final
 D:\C#Fundamentals\Source Control Final Assignment\obj\Debug\Source Control Final Assignment.csproj.GenerateResource.cache
 D:\C#Fundamentals\Source Control Final Assignment\obj\Debug\Source_Control_Final_Assignment.Migrations.SourceControlFinalAssignmentInitial.resources
 D:\C#Fundamentals\Source Control Final Assignment\obj\Debug\Source_Control_Final_Assignment.Migrations.SourceControlFinalAssignment1.resources
+D:\C#Fundamentals\Source Control Final Assignment\bin\NLog.dll
+D:\C#Fundamentals\Source Control Final Assignment\bin\NLog.xml
+D:\C#Fundamentals\Source Control Final Assignment\bin\NLog.config
