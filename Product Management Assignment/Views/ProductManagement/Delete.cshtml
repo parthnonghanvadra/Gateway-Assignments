@@ -1,0 +1,22 @@
+﻿@model ProductManagement.Models.Product
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+<div class="">
+    <h3>Are you sure you want to delete this?</h3>
+    <div>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Delete" class="btn btn-danger" />
+                @Html.ActionLink("Cancel ", "Index", "", htmlAttributes: new { @class = "btn btn-default" })
+            </div>
+        }
+    </div>
+</div>
