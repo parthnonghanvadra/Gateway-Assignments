@@ -1,0 +1,5 @@
+D:\C#Fundamentals\ServiceBookingSystem_Solution\SBS.Common\bin\Debug\SBS.Common.dll
+D:\C#Fundamentals\ServiceBookingSystem_Solution\SBS.Common\bin\Debug\SBS.Common.pdb
+D:\C#Fundamentals\ServiceBookingSystem_Solution\SBS.Common\obj\Debug\SBS.Common.csproj.CoreCompileInputs.cache
+D:\C#Fundamentals\ServiceBookingSystem_Solution\SBS.Common\obj\Debug\SBS.Common.dll
+D:\C#Fundamentals\ServiceBookingSystem_Solution\SBS.Common\obj\Debug\SBS.Common.pdb

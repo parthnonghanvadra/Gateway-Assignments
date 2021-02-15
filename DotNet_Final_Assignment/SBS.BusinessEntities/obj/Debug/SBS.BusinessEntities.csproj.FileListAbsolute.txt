@@ -1,0 +1,6 @@
+D:\C#Fundamentals\ServiceBookingSystem_Solution\SBS.BusinessEntities\bin\Debug\SBS.BusinessEntities.dll
+D:\C#Fundamentals\ServiceBookingSystem_Solution\SBS.BusinessEntities\bin\Debug\SBS.BusinessEntities.pdb
+D:\C#Fundamentals\ServiceBookingSystem_Solution\SBS.BusinessEntities\obj\Debug\SBS.BusinessEntities.csproj.CoreCompileInputs.cache
+D:\C#Fundamentals\ServiceBookingSystem_Solution\SBS.BusinessEntities\obj\Debug\SBS.BusinessEntities.dll
+D:\C#Fundamentals\ServiceBookingSystem_Solution\SBS.BusinessEntities\obj\Debug\SBS.BusinessEntities.pdb
+D:\C#Fundamentals\ServiceBookingSystem_Solution\SBS.BusinessEntities\obj\Debug\SBS.BusinessEntities.csprojAssemblyReference.cache
