@@ -1,0 +1,44 @@
+﻿@model ProductManagement.Models.Product
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!--<h2>Details</h2>-->
+
+<div class="card mb-3">
+    <h3 class="card-header">Product Name : @Html.DisplayFor(model => model.Name)</h3>
+    
+    <div class="text-center">
+        <img src="@Url.Content(Model.SmallImage)" class="img-thumbnail" width="30%" alt="Image" />
+    </div>
+    <br />
+    <div class="card-body">
+        <p class="card-text"><b>About Product</b> :  @Html.DisplayFor(model => model.ShortDescription)</p>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item"><b>Category</b> : @Html.DisplayFor(model => model.Categories.CategoryName)</li>
+        <li class="list-group-item"><b>Price</b> : ₹@Html.DisplayFor(model => model.Price)</li>
+        <li class="list-group-item"><b>Quantity</b> :  @Html.DisplayFor(model => model.Quantity)</li>
+        <li class="list-group-item">
+            <b>More Information</b> :
+            @if (!string.IsNullOrEmpty(Model.LongDescription))
+            {
+                @Html.DisplayFor(model => model.LongDescription)
+            }
+            else
+            {
+                <span style="text-align:center">No More information</span>
+            }
+        </li>
+        @*<li class="list-group-item">Quantity:  @Html.DisplayFor(model => model.Quantity)</li>*@
+    </ul>
+    <div class="card-body">
+
+        @Html.ActionLink("Edit", "Edit", new { id = Model.ProductId }, new { @class = "btn btn-sm btn-primary" })
+        @Html.ActionLink("Cancel ", "Index", "", htmlAttributes: new { @class = "btn btn-default" })
+       
+    </div>
+ 
+</div>
