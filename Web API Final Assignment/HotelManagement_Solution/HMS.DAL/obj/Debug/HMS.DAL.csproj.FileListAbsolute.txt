@@ -1,0 +1,32 @@
+D:\C#Fundamentals\HotelManagement_Solution\HMS.DAL\bin\Debug\HMS.DAL.dll.config
+D:\C#Fundamentals\HotelManagement_Solution\HMS.DAL\bin\Debug\HMS.DAL.dll
+D:\C#Fundamentals\HotelManagement_Solution\HMS.DAL\bin\Debug\HMS.DAL.pdb
+D:\C#Fundamentals\HotelManagement_Solution\HMS.DAL\bin\Debug\AutoMapper.dll
+D:\C#Fundamentals\HotelManagement_Solution\HMS.DAL\bin\Debug\EntityFramework.dll
+D:\C#Fundamentals\HotelManagement_Solution\HMS.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\C#Fundamentals\HotelManagement_Solution\HMS.DAL\bin\Debug\HMS.Models.dll
+D:\C#Fundamentals\HotelManagement_Solution\HMS.DAL\bin\Debug\HMS.Models.pdb
+D:\C#Fundamentals\HotelManagement_Solution\HMS.DAL\bin\Debug\AutoMapper.xml
+D:\C#Fundamentals\HotelManagement_Solution\HMS.DAL\bin\Debug\EntityFramework.xml
+D:\C#Fundamentals\HotelManagement_Solution\HMS.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\C#Fundamentals\HotelManagement_Solution\HMS.DAL\obj\Debug\HMS.DAL.csprojAssemblyReference.cache
+D:\C#Fundamentals\HotelManagement_Solution\HMS.DAL\obj\Debug\HMS.DAL.csproj.CoreCompileInputs.cache
+D:\C#Fundamentals\HotelManagement_Solution\HMS.DAL\obj\Debug\HMS.DAL.csproj.CopyComplete
+D:\C#Fundamentals\HotelManagement_Solution\HMS.DAL\obj\Debug\HMS.DAL.dll
+D:\C#Fundamentals\HotelManagement_Solution\HMS.DAL\obj\Debug\HMS.DAL.pdb
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HMS.DAL\bin\Debug\HMS.DAL.dll.config
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HMS.DAL\bin\Debug\HMS.DAL.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HMS.DAL\bin\Debug\HMS.DAL.pdb
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HMS.DAL\bin\Debug\AutoMapper.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HMS.DAL\bin\Debug\EntityFramework.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HMS.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HMS.DAL\bin\Debug\HMS.Models.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HMS.DAL\bin\Debug\HMS.Models.pdb
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HMS.DAL\bin\Debug\AutoMapper.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HMS.DAL\bin\Debug\EntityFramework.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HMS.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HMS.DAL\obj\Debug\HMS.DAL.csprojAssemblyReference.cache
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HMS.DAL\obj\Debug\HMS.DAL.csproj.CoreCompileInputs.cache
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HMS.DAL\obj\Debug\HMS.DAL.csproj.CopyComplete
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HMS.DAL\obj\Debug\HMS.DAL.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HMS.DAL\obj\Debug\HMS.DAL.pdb

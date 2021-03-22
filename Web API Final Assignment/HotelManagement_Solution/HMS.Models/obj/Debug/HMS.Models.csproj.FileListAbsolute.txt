@@ -1,0 +1,12 @@
+D:\C#Fundamentals\HotelManagement_Solution\HMS.Models\bin\Debug\HMS.Models.dll
+D:\C#Fundamentals\HotelManagement_Solution\HMS.Models\bin\Debug\HMS.Models.pdb
+D:\C#Fundamentals\HotelManagement_Solution\HMS.Models\obj\Debug\HMS.Models.csprojAssemblyReference.cache
+D:\C#Fundamentals\HotelManagement_Solution\HMS.Models\obj\Debug\HMS.Models.csproj.CoreCompileInputs.cache
+D:\C#Fundamentals\HotelManagement_Solution\HMS.Models\obj\Debug\HMS.Models.dll
+D:\C#Fundamentals\HotelManagement_Solution\HMS.Models\obj\Debug\HMS.Models.pdb
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HMS.Models\bin\Debug\HMS.Models.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HMS.Models\bin\Debug\HMS.Models.pdb
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HMS.Models\obj\Debug\HMS.Models.csprojAssemblyReference.cache
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HMS.Models\obj\Debug\HMS.Models.csproj.CoreCompileInputs.cache
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HMS.Models\obj\Debug\HMS.Models.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HMS.Models\obj\Debug\HMS.Models.pdb
