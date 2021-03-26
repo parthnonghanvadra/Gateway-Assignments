@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MyserviceService } from './myservice.service';
 
 @Component({
   selector: 'app-root',
@@ -9,8 +10,14 @@ export class AppComponent {
   title = 'PracticeAssignment';
   name = "Parth Nonghanvadra";
   birthDate = new Date(2000, 7, 4);
-  inputString = "Parent Component String"
+  todaydate !: Date;
 
+  inputString = "Parent Component String"
+  constructor(private myservice: MyserviceService) {}
+
+  ngOnInit() {
+    this.todaydate = this.myservice.showTodayDate();
+ }
 
   isUnchanged = true;
   size = 0;

@@ -9,6 +9,10 @@ const routes: Routes = [
     path: "routing",
     component:RoutingComponentComponent
   },
+  {
+    path: "demo",
+    component:DemoComponentComponent
+  },
 ];
 
 @NgModule({

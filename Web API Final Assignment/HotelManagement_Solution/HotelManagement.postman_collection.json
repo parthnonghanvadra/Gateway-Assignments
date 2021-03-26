@@ -1,0 +1,1264 @@
+{
+	"info": {
+		"_postman_id": "ca2a824a-4da2-41d2-a6f6-604190353d86",
+		"name": "HotelManagement",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "HotelRequests ",
+			"item": [
+				{
+					"name": "GET Requests ",
+					"item": [
+						{
+							"name": "Get All Hotels",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:44305/api/Hotel",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Hotel"
+									]
+								},
+								"description": "GET all hotels sort by alphabetic order."
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "POST Requests ",
+					"item": [
+						{
+							"name": "Add Hotel 1",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n        \"Name\": \"Hotel Saraza\",\r\n        \"Address\": \"Kalawad Road\",\r\n        \"City\": \"Rajkot\",\r\n        \"PinCode\": \"360005\",\r\n        \"ContactNumber\": \"8976798750\",\r\n        \"ContactPerson\": \"Mr.Sharma\",\r\n        \"Website\": \"Saraza.com\",\r\n        \"Facebook\": \"Saraza Hotels\",\r\n        \"Twitter\": \"Saraza Hotels\",\r\n        \"IsActive\": true\r\n    }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Hotel",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Hotel"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Hotel 2",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n        \"Name\": \"Sayaji\",\r\n        \"Address\": \"Nana Mauva Road\",\r\n        \"City\": \"Rajkot\",\r\n        \"PinCode\": \"360005\",\r\n        \"ContactNumber\": \"9897604310\",\r\n        \"ContactPerson\": \"Mr.Patel\",\r\n        \"Website\": \"sayaji.com\",\r\n        \"Facebook\": \"Sayaji Hotels\",\r\n        \"Twitter\": \"Sayaji Hotels\",\r\n        \"IsActive\": true\r\n    }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Hotel",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Hotel"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Hotel 3",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n        \"Name\": \"Hotel Lords\",\r\n        \"Address\": \"University Road\",\r\n        \"City\": \"Rajkot\",\r\n        \"PinCode\": \"360005\",\r\n        \"ContactNumber\": \"8976798750\",\r\n        \"ContactPerson\": \"Mr.Pandya\",\r\n        \"Website\": \"lords.com\",\r\n        \"Facebook\": \"Lords Hotels\",\r\n        \"Twitter\": \"Lords Hotels\",\r\n        \"IsActive\": true\r\n        \r\n    }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Hotel",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Hotel"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Hotel 4",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n        \"Name\": \"Imperial\",\r\n        \"Address\": \"Dr. Yagnik Road\",\r\n        \"City\": \"Rajkot\",\r\n        \"PinCode\": \"360002\",\r\n        \"ContactNumber\": \"8976798751\",\r\n        \"ContactPerson\": \"Mr.Vala\",\r\n        \"Website\": \"imperial.com\",\r\n        \"Facebook\": \"imperial Hotels\",\r\n        \"Twitter\": \"imperial Hotels\",\r\n        \"IsActive\": true\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Hotel",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Hotel"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Hotel 5",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n        \"Name\": \"Fortune\",\r\n        \"Address\": \"150ft Road\",\r\n        \"City\": \"Rajkot\",\r\n        \"PinCode\": \"360002\",\r\n        \"ContactNumber\": \"8976798745\",\r\n        \"ContactPerson\": \"Mr.Shah\",\r\n        \"Website\": \"fortune.com\",\r\n        \"Facebook\": \"fortune Hotels\",\r\n        \"Twitter\": \"fortune Hotels\",\r\n        \"IsActive\": true\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Hotel",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Hotel"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				}
+			],
+			"description": "Contains Hotel related requests.",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "RoomRequests",
+			"item": [
+				{
+					"name": "GET Requests ",
+					"item": [
+						{
+							"name": "Get Room/s with Params",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:44305/api/Room/params?city=Rajkot&pinCode=360005&price=1000&category=Categories 1",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Room",
+										"params"
+									],
+									"query": [
+										{
+											"key": "city",
+											"value": "Rajkot"
+										},
+										{
+											"key": "pinCode",
+											"value": "360005"
+										},
+										{
+											"key": "price",
+											"value": "1000"
+										},
+										{
+											"key": "category",
+											"value": "Categories 1"
+										}
+									]
+								},
+								"description": " GET all rooms of hotels with optional parameter by hotel city, pin code, Price, Category.(Default sort by price of room low to high)"
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "POST Requests ",
+					"item": [
+						{
+							"name": "Add Room 1 For Hotel 1",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"HotelId\": 6,\r\n    \"Name\": \"Small Room\",\r\n    \"Category\": \"Categories 1\",\r\n    \"Price\": 400.0000,\r\n    \"IsActive\": true\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Room",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Room"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Room 2 For Hotel 1",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"HotelId\": 6,\r\n    \"Name\": \"Medium Room\",\r\n    \"Category\": \"Categories 2\",\r\n    \"Price\": 600.0000,\r\n    \"IsActive\": true\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Room",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Room"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Room 3 For Hotel 1",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"HotelId\": 6,\r\n    \"Name\": \"Large Room\",\r\n    \"Category\": \"Categories 3\",\r\n    \"Price\": 800.0000,\r\n    \"IsActive\": true\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Room",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Room"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Room 1 For Hotel 2",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"HotelId\": 7,\r\n    \"Name\": \"Small Room\",\r\n    \"Category\": \"Categories 1\",\r\n    \"Price\": 1000.0000,\r\n    \"IsActive\": true\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Room",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Room"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Room 2 For Hotel 2",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"HotelId\": 7,\r\n    \"Name\": \"Meduim Room\",\r\n    \"Category\": \"Categories 1\",\r\n    \"Price\": 1200.0000,\r\n    \"IsActive\": true\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Room",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Room"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Room 3 For Hotel 2",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"HotelId\": 7,\r\n    \"Name\": \"Large Room\",\r\n    \"Category\": \"Categories 3\",\r\n    \"Price\": 1400.0000,\r\n    \"IsActive\": true\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Room",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Room"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Room 1 For Hotel 3",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"HotelId\": 8,\r\n    \"Name\": \"Small Room\",\r\n    \"Category\": \"Categories 1\",\r\n    \"Price\": 1200.0000,\r\n    \"IsActive\": true\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Room",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Room"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Room 2 For Hotel 3",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"HotelId\": 8,\r\n    \"Name\": \"Meduim Room\",\r\n    \"Category\": \"Categories 2\",\r\n    \"Price\": 1400.0000,\r\n    \"IsActive\": true\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Room",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Room"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Room 3 For Hotel 3",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"HotelId\": 8,\r\n    \"Name\": \"Large Room\",\r\n    \"Category\": \"Categories 3\",\r\n    \"Price\": 1600.0000,\r\n    \"IsActive\": true\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Room",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Room"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Room 1 For Hotel 4",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"HotelId\": 9,\r\n    \"Name\": \"Small Room\",\r\n    \"Category\": \"Categories 1\",\r\n    \"Price\": 1400.0000,\r\n    \"IsActive\": true\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Room",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Room"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Room 1 For Hotel 5",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"HotelId\": 10,\r\n    \"Name\": \"Small Room\",\r\n    \"Category\": \"Categories 1\",\r\n    \"Price\": 1600.0000,\r\n    \"IsActive\": true\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Room",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Room"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Room 2 For Hotel 4",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"HotelId\": 9,\r\n    \"Name\": \"Meduim Room\",\r\n    \"Category\": \"Categories 2\",\r\n    \"Price\": 1600.0000,\r\n    \"IsActive\": true\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Room",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Room"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Room 2 For Hotel 5",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"HotelId\": 10,\r\n    \"Name\": \"Meduim Room\",\r\n    \"Category\": \"Categories 2\",\r\n    \"Price\": 1800.0000,\r\n    \"IsActive\": true\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Room",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Room"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Room 3 For Hotel 4",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"HotelId\": 9,\r\n    \"Name\": \"Large Room\",\r\n    \"Category\": \"Categories 3\",\r\n    \"Price\": 1800.0000,\r\n    \"IsActive\": true\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Room",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Room"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Room 3 For Hotel 5",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"HotelId\": 10,\r\n    \"Name\": \"Large Room\",\r\n    \"Category\": \"Categories 3\",\r\n    \"Price\": 2000.0000,\r\n    \"IsActive\": true\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Room",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Room"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				}
+			],
+			"description": "Contains Rooms related requests.",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "BookingRequests",
+			"item": [
+				{
+					"name": "GET Requests",
+					"item": [
+						{
+							"name": "Get Room Availability ",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:44305/api/Booking?roomId=14&date=2021-01-11 19:00:21.590",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Booking"
+									],
+									"query": [
+										{
+											"key": "roomId",
+											"value": "14"
+										},
+										{
+											"key": "date",
+											"value": "2021-01-11 19:00:21.590"
+										}
+									]
+								},
+								"description": "GET availability of room on some particular date(parameter), Response: should be return True False only"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST Requests ",
+					"item": [
+						{
+							"name": "Add Booking 1",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \r\n    \"RoomId\": 14,\r\n    \"BookingDate\": \"2021-01-20\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Booking",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Booking"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Booking 2",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"type": "text",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \r\n    \"RoomId\": 15,\r\n    \"BookingDate\": \"2021-01-21\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Booking",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Booking"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Booking 3",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"type": "text",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \r\n    \"RoomId\": 16,\r\n    \"BookingDate\": \"2021-01-22\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Booking",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Booking"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Booking 4",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"type": "text",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \r\n    \"RoomId\": 16,\r\n    \"BookingDate\": \"2021-01-24\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Booking",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Booking"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Booking 5",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"type": "text",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \r\n    \"RoomId\": 16,\r\n    \"BookingDate\": \"2021-01-25\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Booking",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Booking"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "PUT Requests",
+					"item": [
+						{
+							"name": "Update Booking By Room Id",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \r\n    \"Id\": 13,\r\n    \"RoomId\": 14,\r\n    \"BookingDate\": \"2021-01-23\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44305/api/Booking",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Booking"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Booking Status By Booking Id",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://localhost:44305/api/Booking/13/Definitive",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Booking",
+										"13",
+										"Definitive"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "DELETE Requests",
+					"item": [
+						{
+							"name": "Delete Booking By Booking Id",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer 2totlLhq-mGz9LFf9P4nGXNtHIf8baOonPv8L0RUgV7LymwkGdjrfBMd3nfIkou9CWeGuzZzVAMscId4UIV3X6mQxZWDx1yvX9o7PsN8gJJ0WJPwjFCF3cAao4JQkv5Q96ZIX9oRgecXg4XrWxwXmVL4AfPR0H5v7Jx-u3vXvjoIiAVkTryfXk3ma3Ep6C0p6qCQEWW8lN_nEyUXlXW1d19sQGsHoSzrSeWUsKVPMpxghm-cdVQMu2t3HLendn0AKH3DPC5NDohnXlZQZBSAWSfdqrB_PdYkTs3oGBOvWEpk5LuGrdTJ6crdigjWt5R6sCT8AmIqgWEPajzo9TPMa0rwIrrUFPTRcR5nkwM2KShB9Yb-bekrQnBC207674NPmhx8Y8tubC09kGqVoUtbNfQqYtaApRV3X6QahuHy_bgZy4olZb5jSuW5Qh5UBNGyP-0lTv_TrPDZMm3IpuJm2fyAh1UkMSjeyx0wpv0o6TH5hpvazUh-1xmULeXHirJu",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://localhost:44305/api/Booking/14",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44305",
+									"path": [
+										"api",
+										"Booking",
+										"14"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			],
+			"description": "Contains Bookings related requests.",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,272 @@
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\HotelManagement.dll.config
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\HotelManagement.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\HotelManagement.pdb
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\csc.exe
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\csc.exe.config
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\csc.rsp
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\csi.exe
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\csi.exe.config
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\csi.rsp
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.Managed.Core.targets
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.AppContext.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Collections.Immutable.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Console.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Globalization.Calendars.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.IO.Compression.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.IO.FileSystem.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Net.Http.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Net.Sockets.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Reflection.Metadata.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.ValueTuple.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Xml.XmlDocument.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Xml.XPath.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\vbc.exe
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\vbc.exe.config
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\vbc.rsp
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\VBCSCompiler.exe
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\roslyn\VBCSCompiler.exe.config
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Antlr3.Runtime.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\EntityFramework.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\EntityFramework.SqlServer.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\HMS.BAL.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\HMS.Models.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.AspNet.Identity.Core.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.Cookies.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.Facebook.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.Google.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.OAuth.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.Twitter.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.Web.Infrastructure.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Newtonsoft.Json.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Owin.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Net.Http.Formatting.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.Helpers.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.Http.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.Http.Owin.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.Http.WebHost.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.Mvc.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.Optimization.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.Razor.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.WebPages.Deployment.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.WebPages.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.WebPages.Razor.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Unity.Abstractions.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Unity.Container.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Unity.WebApi.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\WebGrease.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\HMS.DAL.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Threading.Tasks.Extensions.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\AutoMapper.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\HMS.BAL.pdb
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\HMS.Models.pdb
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Newtonsoft.Json.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Net.Http.Formatting.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.Helpers.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.Http.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.Http.WebHost.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.Mvc.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.Optimization.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.Razor.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.WebPages.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.WebPages.Deployment.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.WebPages.Razor.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Unity.Abstractions.pdb
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Unity.Container.pdb
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Antlr3.Runtime.pdb
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\EntityFramework.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\EntityFramework.SqlServer.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.AspNet.Identity.Core.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.Facebook.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.Cookies.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.Google.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.Twitter.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.OAuth.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.Http.Owin.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\HMS.DAL.pdb
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\HMS.DAL.dll.config
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\AutoMapper.xml
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\obj\Debug\HotelManagement.csprojAssemblyReference.cache
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\obj\Debug\HotelManagement.csproj.CoreCompileInputs.cache
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\obj\Debug\HotelManagement.csproj.CopyComplete
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\obj\Debug\HotelManagement.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\obj\Debug\HotelManagement.pdb
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.Cors.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.Http.Cors.dll
+D:\C#Fundamentals\HotelManagement_Solution\HotelManagement\bin\System.Web.Http.Cors.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\HotelManagement.dll.config
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\HotelManagement.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\HotelManagement.pdb
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\csc.exe
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\csc.exe.config
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\csc.rsp
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\csi.exe
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\csi.exe.config
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\csi.rsp
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.AppContext.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Collections.Immutable.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Console.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Globalization.Calendars.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.IO.Compression.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.IO.FileSystem.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Net.Http.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Net.Sockets.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Reflection.Metadata.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.ValueTuple.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Xml.XPath.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\vbc.exe
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\vbc.exe.config
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\vbc.rsp
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\VBCSCompiler.exe
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\roslyn\VBCSCompiler.exe.config
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Antlr3.Runtime.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\EntityFramework.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\EntityFramework.SqlServer.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\HMS.BAL.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\HMS.Models.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.Google.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.Web.Infrastructure.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Newtonsoft.Json.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Owin.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Net.Http.Formatting.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.Cors.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.Helpers.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.Http.Cors.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.Http.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.Http.Owin.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.Http.WebHost.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.Mvc.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.Optimization.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.Razor.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.WebPages.Deployment.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.WebPages.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.WebPages.Razor.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Unity.Abstractions.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Unity.Container.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Unity.WebApi.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\WebGrease.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\HMS.DAL.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Threading.Tasks.Extensions.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\AutoMapper.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\HMS.BAL.pdb
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\HMS.Models.pdb
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.Http.Cors.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Newtonsoft.Json.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Net.Http.Formatting.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.Helpers.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.Http.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.Http.WebHost.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.Mvc.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.Optimization.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.Razor.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.WebPages.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.WebPages.Deployment.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.WebPages.Razor.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Unity.Abstractions.pdb
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Unity.Container.pdb
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Antlr3.Runtime.pdb
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\EntityFramework.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\EntityFramework.SqlServer.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.Google.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\System.Web.Http.Owin.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\HMS.DAL.pdb
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\HMS.DAL.dll.config
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\bin\AutoMapper.xml
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\obj\Debug\HotelManagement.csprojAssemblyReference.cache
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\obj\Debug\HotelManagement.csproj.CoreCompileInputs.cache
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\obj\Debug\HotelManagement.csproj.CopyComplete
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\obj\Debug\HotelManagement.dll
+D:\Gateway-Assignments\Web API Final Assignment\HotelManagement_Solution\HotelManagement\obj\Debug\HotelManagement.pdb

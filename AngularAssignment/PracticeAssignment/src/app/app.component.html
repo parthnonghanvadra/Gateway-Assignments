@@ -1,18 +1,3 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand">Demo</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/routing">Go To Routing Component</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
 
 <h1>{{title}}</h1>
 
@@ -41,3 +26,10 @@ Name: <input [(ngModel)]="name" />
 <br />
 
 <app-demo-component [childInputString]="inputString" (myOutput)="GetChildData($event)"></app-demo-component>
+
+<h6>{{todaydate}}</h6>
+
+<a class="nav-link" routerLink="/routing">Go To Routing Component</a>
+<a class="nav-link" routerLink="/demo">Go To demo Component</a>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,14 @@
+D:\MyProjects\DotNetCore_Assignment\HRM\HRM.BAL\bin\Debug\netcoreapp3.1\HRM.BAL.deps.json
+D:\MyProjects\DotNetCore_Assignment\HRM\HRM.BAL\bin\Debug\netcoreapp3.1\HRM.BAL.dll
+D:\MyProjects\DotNetCore_Assignment\HRM\HRM.BAL\bin\Debug\netcoreapp3.1\HRM.BAL.pdb
+D:\MyProjects\DotNetCore_Assignment\HRM\HRM.BAL\obj\Debug\netcoreapp3.1\HRM.BAL.csprojAssemblyReference.cache
+D:\MyProjects\DotNetCore_Assignment\HRM\HRM.BAL\obj\Debug\netcoreapp3.1\HRM.BAL.AssemblyInfoInputs.cache
+D:\MyProjects\DotNetCore_Assignment\HRM\HRM.BAL\obj\Debug\netcoreapp3.1\HRM.BAL.AssemblyInfo.cs
+D:\MyProjects\DotNetCore_Assignment\HRM\HRM.BAL\obj\Debug\netcoreapp3.1\HRM.BAL.csproj.CoreCompileInputs.cache
+D:\MyProjects\DotNetCore_Assignment\HRM\HRM.BAL\obj\Debug\netcoreapp3.1\HRM.BAL.dll
+D:\MyProjects\DotNetCore_Assignment\HRM\HRM.BAL\obj\Debug\netcoreapp3.1\HRM.BAL.pdb
+D:\MyProjects\DotNetCore_Assignment\HRM\HRM.BAL\bin\Debug\netcoreapp3.1\HRM.BusinessEntities.dll
+D:\MyProjects\DotNetCore_Assignment\HRM\HRM.BAL\bin\Debug\netcoreapp3.1\HRM.DAL.dll
+D:\MyProjects\DotNetCore_Assignment\HRM\HRM.BAL\bin\Debug\netcoreapp3.1\HRM.BusinessEntities.pdb
+D:\MyProjects\DotNetCore_Assignment\HRM\HRM.BAL\bin\Debug\netcoreapp3.1\HRM.DAL.pdb
+D:\MyProjects\DotNetCore_Assignment\HRM\HRM.BAL\obj\Debug\netcoreapp3.1\HRM.BAL.csproj.CopyComplete
