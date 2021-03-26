@@ -11,34 +11,35 @@ namespace Testing_Assignment_2
         static void Main(string[] args)
         {
             string inputString = Console.ReadLine();
-            string output;
 
             //case 1
-            output = ExtensionMethods.StringConvert(inputString, "UppartoLower");
+            Console.WriteLine(inputString.UppartoLower());
 
             //case 2
-            output = ExtensionMethods.StringConvert(inputString, "TitleCase");
+            Console.WriteLine(inputString.TitleCase());
 
             //case 3
-            output = ExtensionMethods.StringConvert(inputString, "CheckUppar");
+            Console.WriteLine(inputString.CheckUppar());
 
             //case 4
-            output = ExtensionMethods.StringConvert(inputString, "Capitalized");
+            Console.WriteLine(inputString.Capitalized());
 
             //case 5
-            output = ExtensionMethods.StringConvert(inputString, "CheckLower");
+            Console.WriteLine(inputString.CheckLower());
 
             //case 6
-            output = ExtensionMethods.StringConvert(inputString, "CheckforInt");
+            Console.WriteLine(inputString.CheckforInt());
 
             //case 7
-            output = ExtensionMethods.StringConvert(inputString, "RemoveLastChar");
+            Console.WriteLine(inputString.RemoveLastChar());
 
             //case 8
-            output = ExtensionMethods.StringConvert(inputString, "WordCount");
+            Console.WriteLine(inputString.WordCount());
 
             //case 9
-            output = ExtensionMethods.StringConvert(inputString, "StringToInt");
+            Console.WriteLine(inputString.StringToInt());
+
+            Console.ReadLine();
         }
     }
 }
