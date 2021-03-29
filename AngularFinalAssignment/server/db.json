@@ -1,27 +1,6 @@
 {
   "company": [
     {
-      "id": 3,
-      "email": "larypage@google.com",
-      "name": "Google",
-      "totalEmployees": 6000,
-      "address": "New York, USA",
-      "isActive": true,
-      "totalBranch": 2,
-      "branch": [
-        {
-          "id": 1,
-          "name": "Headquaters",
-          "address": "New York, USA"
-        },
-        {
-          "id": 2,
-          "name": "Sub-branch",
-          "address": "California, USA"
-        }
-      ]
-    },
-    {
       "id": 1616664619595,
       "name": "Flipkart",
       "email": "flipkart@gmail.com",
