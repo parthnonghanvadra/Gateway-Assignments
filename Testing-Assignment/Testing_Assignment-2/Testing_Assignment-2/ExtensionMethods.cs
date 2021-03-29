@@ -156,7 +156,7 @@ namespace Testing_Assignment_2
         /// <returns>
         /// return coneverted string
         /// </returns>
-        public static string UppartoLower(this string inputString)
+        public static string InverseCase(this string inputString)
         {
             string output = "";
             int ascii = 0;
