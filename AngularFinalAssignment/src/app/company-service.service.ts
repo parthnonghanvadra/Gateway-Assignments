@@ -15,7 +15,7 @@ export class CompanyServiceService {
       'Content-Type': 'application/json'
     })
   }
-
+  company !: Company
   constructor(private httpClient: HttpClient) { }
 
   create(comapny : Company) : Observable<Company>
@@ -29,9 +29,10 @@ export class CompanyServiceService {
 
   }
 
-  update(comapny : Company, id : number) : Observable<Company>
+  update(company : Company) : Observable<Company>
   {
-    return this.httpClient.put<Company>(this.api + '/company/' + id, JSON.stringify(comapny), this.httpOptions);
+    debugger;
+    return this.httpClient.put<Company>(this.api + '/company/' + company.id, JSON.stringify(company), this.httpOptions);
   }
 
   delete(id : number){
@@ -45,4 +46,14 @@ export class CompanyServiceService {
     return this.httpClient.get<Company>(this.api + '/company/' + id, this.httpOptions)
   }
 
-}
+  companyDetails(companyDetails : Company)
+  {
+    debugger;
+    this.company = companyDetails;
+  }
+
+  getCompany()
+  {
+    return this.company;
+  }
+} 

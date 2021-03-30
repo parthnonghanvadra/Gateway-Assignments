@@ -2,22 +2,22 @@
   "company": [
     {
       "id": 3,
+      "name": "Google12345",
       "email": "larypage@google.com",
-      "name": "Google",
-      "totalEmployees": 6000,
       "address": "New York, USA",
-      "isActive": true,
+      "totalEmployees": 600,
       "totalBranch": 2,
+      "isActive": true,
       "branch": [
         {
-          "id": 1,
-          "name": "Headquaters",
-          "address": "New York, USA"
+          "id": "",
+          "name": "Parth",
+          "address": "dwedwedew"
         },
         {
-          "id": 2,
-          "name": "Sub-branch",
-          "address": "California, USA"
+          "id": 1617087066771,
+          "name": "amazon123",
+          "address": "vdfvdfvdvdf"
         }
       ]
     },
@@ -34,17 +34,12 @@
           "id": 1616664619598,
           "name": "Flipkart 1",
           "address": "Ahmadabad "
-        },
-        {
-          "id": "",
-          "name": "Flipkart  2",
-          "address": "Delhi"
         }
       ]
     },
     {
       "id": 1616677296619,
-      "name": "amazon world",
+      "name": "amazon world1234",
       "email": "amazon@gmail.com",
       "address": "USA",
       "totalEmployees": 1000,
@@ -55,6 +50,43 @@
           "id": 1616677296619,
           "name": "amazon 1",
           "address": "Delhi"
+        }
+      ]
+    },
+    {
+      "id": 1617086574126,
+      "name": "dwewdewdwe",
+      "email": "parth@gmail.com",
+      "address": "Test",
+      "totalEmployees": 12,
+      "totalBranch": 2,
+      "isActive": true,
+      "branch": [
+        {
+          "id": 1617086574131,
+          "name": "dqwedqw",
+          "address": "dqwwdqdwq"
+        },
+        {
+          "id": 1617086978879,
+          "name": "ytjuyjuyj",
+          "address": "yujuyjuyjy"
+        }
+      ]
+    },
+    {
+      "id": 1617089416653,
+      "name": "cewcergtrtg",
+      "email": "parth@gmail.com",
+      "address": "Test",
+      "totalEmployees": 122,
+      "totalBranch": 1,
+      "isActive": true,
+      "branch": [
+        {
+          "id": 1617089416651,
+          "name": "f4fe",
+          "address": "ferferferfrefrrfrfr"
         }
       ]
     }

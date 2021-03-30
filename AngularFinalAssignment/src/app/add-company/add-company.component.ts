@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators, FormArray } from '@angular/forms';
 import {Router} from '@angular/router';
 import { Company } from '../model/company.model';
-import * as companies from '../../assets/companies.json'
 import {CompanyServiceService} from '../company-service.service'
 
 @Component({

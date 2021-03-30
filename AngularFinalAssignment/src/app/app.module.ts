@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { AddCompanyComponent } from './add-company/add-company.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
-import { NgxSpinnerModule } from "ngx-spinner"; 
+import { NgxSpinnerModule } from "ngx-spinner";
+import { EditCompanyComponent } from './edit-company/edit-company.component'; 
 
 @NgModule({
   declarations: [
     AppComponent,
     AddCompanyComponent,
-    DashboardComponent
+    DashboardComponent,
+    EditCompanyComponent
   ],
   imports: [
     BrowserModule,
