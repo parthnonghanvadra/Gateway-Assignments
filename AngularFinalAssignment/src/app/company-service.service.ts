@@ -7,6 +7,7 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
+
 export class CompanyServiceService {
 
   private api = "http://localhost:3000";
