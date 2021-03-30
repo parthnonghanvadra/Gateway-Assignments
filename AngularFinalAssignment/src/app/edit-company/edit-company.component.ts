@@ -45,7 +45,6 @@ export class EditCompanyComponent implements OnInit {
     console.log(this.company.branch);
     for(let branch of this.company.branch){
       
-        // id: this.addCompanyForm.controls['branch'].setValue(branch.id),
         // this.addCompanyForm.controls['name'].setValue(branch.name),
         // this.addCompanyForm.controls['address'].setValue(branch.address)
         
