@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Controllers;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -23,10 +24,9 @@ namespace HRM.ViewLayer.Logging
         }
         public Task InvokeAsync(HttpContext context)
         {
-            var controllerActionDescriptor = context.GetEndpoint().Metadata.GetMetadata<ControllerActionDescriptor>();
-            var controllerName = controllerActionDescriptor.ControllerName;
-            var actionName = controllerActionDescriptor.ActionName;
-            // Start the Timer using Stopwatch  
+            var controllerName = context.GetRouteValue("controller");
+            var actionName = context.GetRouteValue("action");
+            // Start the Timer using Stopwatch
             var watch = new Stopwatch();
             watch.Start();
             context.Response.OnStarting(() => {
