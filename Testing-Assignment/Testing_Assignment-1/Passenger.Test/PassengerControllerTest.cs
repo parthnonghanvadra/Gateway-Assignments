@@ -60,8 +60,8 @@ namespace Passenger.Test
             
             var newPassenger = new Testing_Assignment_1.Models.Passenger();
             newPassenger.Id = Guid.NewGuid();
-            newPassenger.FirstName = "Shankar";
-            newPassenger.LastName = "Mahadev";
+            newPassenger.FirstName = "Parth";
+            newPassenger.LastName = "Nonghanvadra";
             newPassenger.PhoneNumber = "78894561230";
 
             // Act
@@ -77,8 +77,8 @@ namespace Passenger.Test
         {
             var newPassenger = new Testing_Assignment_1.Models.Passenger();
             newPassenger.Id = Guid.NewGuid();
-            newPassenger.FirstName = "Shankar";
-            newPassenger.LastName = "Mahadev";
+            newPassenger.FirstName = "Parth";
+            newPassenger.LastName = "Nonghanvadra";
             newPassenger.PhoneNumber = "78894561230";
             
             // Act
@@ -93,7 +93,7 @@ namespace Passenger.Test
         public void Test_UpdateUser()
         {
             // Arrange
-            var model = JsonConvert.DeserializeObject<Testing_Assignment_1.Models.Passenger>(File.ReadAllText("Data/UpdateUser.json"));
+            var model = new Testing_Assignment_1.Models.Passenger { Id = new Guid(), FirstName = "Parth", LastName = "Nonghanvadra", PhoneNumber = "9874563210"};
 
             // Act
             var resultObj = mockDtaRepository.Setup(x => x.Update(model)).Returns(model);
@@ -119,8 +119,8 @@ namespace Passenger.Test
         {
             var newPassenger = new Testing_Assignment_1.Models.Passenger();
             newPassenger.Id = Guid.NewGuid();
-            newPassenger.FirstName = "Shankar";
-            newPassenger.LastName = "Mahadev";
+            newPassenger.FirstName = "Parth";
+            newPassenger.LastName = "Nonghanvadra";
             newPassenger.PhoneNumber = "78894561230";
             return newPassenger;
         }
