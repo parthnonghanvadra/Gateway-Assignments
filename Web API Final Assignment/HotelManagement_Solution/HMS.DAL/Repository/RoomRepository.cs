@@ -92,7 +92,7 @@ namespace HMS.DAL.Repository
 
         public List<Rooms> GetRoom(string city, string pinCode, decimal price, string category)
         {
-            var entities = _dbContext.Rooms.Where(x => x.Hotel.City.Equals(city) && x.Hotel.PinCode.Equals(pinCode) && x.Price <= price && x.Category.Equals(category)).OrderBy(x => x.Price).ToList();
+            var entities = _dbContext.Rooms.Where(x => x.Hotel.City.Equals(city) || x.Hotel.PinCode.Equals(pinCode) || x.Price <= price || x.Category.Equals(category)).OrderBy(x => x.Price).ToList();
 
             List<Rooms> rooms = new List<Rooms>();
             var config = new MapperConfiguration(cfg => cfg.CreateMap<Database.Room, Rooms>());
