@@ -28,30 +28,15 @@ export class EditCompanyComponent implements OnInit {
       totalEmployees: ['', Validators.required],
       totalBranch: ['', Validators.required],
       isActive: ['', Validators.required],
-      branch : this.formBuilder.array([this.formBuilder.group({id : Math.floor(Math.random()*10)+ (new Date()).getTime() , name: '', address: ''})])
+      branch : this.formBuilder.array([])
     });
 
     this.company = this.companyServiceService.getCompany();
     
-    this.addCompanyForm.controls['id'].setValue(this.company.id);
-    this.addCompanyForm.controls['name'].setValue(this.company.name);
-    this.addCompanyForm.controls['email'].setValue(this.company.email);
-    this.addCompanyForm.controls['address'].setValue(this.company.address);
-    this.addCompanyForm.controls['totalEmployees'].setValue(this.company.totalEmployees);
-    this.addCompanyForm.controls['totalBranch'].setValue(this.company.totalBranch);
-    this.addCompanyForm.controls['isActive'].setValue(this.company.isActive);
-    this.addCompanyForm.controls['branch'].setValue(this.company.branch);
-    debugger;
-    console.log(this.company.branch);
-    for(let branch of this.company.branch){
-      
-        // this.addCompanyForm.controls['name'].setValue(branch.name),
-        // this.addCompanyForm.controls['address'].setValue(branch.address)
-        
-        this.addCompanyForm.controls['branch'].setValue(branch)
-      }
-      debugger;
-      console.log(this.addCompanyForm.controls['branch']);
+    for(const index in this.company.branch){
+        this.addBranch();
+    }
+      this.addCompanyForm.setValue(this.company)
   }
 
   get registerFormControl() {
@@ -61,6 +46,14 @@ export class EditCompanyComponent implements OnInit {
   get branchs()
   {
     return this.addCompanyForm.get('branch') as FormArray;
+  }
+
+  onCreate() : FormGroup {
+    return this.formBuilder.group({
+      id : Math.floor(Math.random()*10)+ (new Date()).getTime() ,
+      name: '', 
+      address: ''
+    })
   }
 
   onSubmit()
@@ -86,7 +79,7 @@ export class EditCompanyComponent implements OnInit {
 
   addBranch()
   {
-    this.branchs.push(this.formBuilder.group({id : Math.floor(Math.random()*10)+ (new Date()).getTime(), name: '', address: ''}))
+    this.branchs.push(this.onCreate())
   }
 
   deleteBranch(index : number) {
