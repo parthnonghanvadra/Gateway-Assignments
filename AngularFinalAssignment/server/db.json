@@ -17,7 +17,7 @@
         {
           "id": 1617252461804,
           "name": "Parth",
-          "address": "ferferferfrefrrfrfr"
+          "address": "Parth"
         }
       ]
     },
@@ -54,32 +54,6 @@
       ]
     },
     {
-      "id": 1617086574126,
-      "name": "dwewdewdwe",
-      "email": "parth@gmail.com",
-      "address": "Test",
-      "totalEmployees": 12,
-      "totalBranch": 2,
-      "isActive": true,
-      "branch": [
-        {
-          "id": 1617086574131,
-          "name": "dqwedqw",
-          "address": "dqwwdqdwq"
-        },
-        {
-          "id": 1617086978879,
-          "name": "ytjuyjuyj",
-          "address": "yujuyjuyjy"
-        },
-        {
-          "id": 1617252737568,
-          "name": "amazon123",
-          "address": "wedwedwedwe"
-        }
-      ]
-    },
-    {
       "id": 1617089416653,
       "name": "cewcergtrtg",
       "email": "parth@gmail.com",
@@ -90,13 +64,13 @@
       "branch": [
         {
           "id": 1617089416651,
-          "name": "f4fe",
-          "address": "ferferferfrefrrfrfr"
+          "name": "Branch 1",
+          "address": "Branch 1"
         },
         {
           "id": 1617252785750,
-          "name": "aaaaaaaaa",
-          "address": "dwedwedwed"
+          "name": "Branch 2",
+          "address": "Branch 2"
         }
       ]
     }
