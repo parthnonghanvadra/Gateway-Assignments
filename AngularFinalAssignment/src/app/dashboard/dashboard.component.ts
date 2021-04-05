@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import {CompanyServiceService} from '../company-service.service'
 import { FormGroup } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-dashboard',
@@ -12,7 +13,7 @@ export class DashboardComponent implements OnInit {
 
   companies: any = [];
   addCompanyForm !: FormGroup;
-  constructor(private httpClient: HttpClient, private companyServiceService : CompanyServiceService) { }
+  constructor(private httpClient: HttpClient, private router:Router, private companyServiceService : CompanyServiceService) { }
 
   ngOnInit(): void {
    
@@ -25,15 +26,8 @@ export class DashboardComponent implements OnInit {
   loadCompanyToEdit(id : number)
   {
     this.companyServiceService.getById(id).subscribe(company => {
-      this.addCompanyForm.controls['name'].setValue(company.name);
-      this.addCompanyForm.controls['email'].setValue(company.email);
-      this.addCompanyForm.controls['address'].setValue(company.address);
-      this.addCompanyForm.controls['totalEmployees'].setValue(company.totalEmployees);
-      this.addCompanyForm.controls['totalBranch'].setValue(company.totalBranch);
-      this.addCompanyForm.controls['isActive'].setValue(company.isActive);
-      this.addCompanyForm.controls['isActive'].setValue(company.name);
-      this.addCompanyForm.controls['isActive'].setValue(company.name);
-
+      this.companyServiceService.companyDetails(company);
+      this.router.navigate(['/edit-company']);
     })
   }
 

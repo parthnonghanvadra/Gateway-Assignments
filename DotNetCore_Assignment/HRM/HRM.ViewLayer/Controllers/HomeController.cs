@@ -20,7 +20,7 @@ namespace HRM.ViewLayer.Controllers
 
         public IActionResult Index()
         {
-            throw new Exception();
+            //throw new Exception();
             return View();
         }
 

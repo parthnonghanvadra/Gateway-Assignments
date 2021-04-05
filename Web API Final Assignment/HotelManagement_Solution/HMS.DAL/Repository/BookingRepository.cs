@@ -22,7 +22,7 @@ namespace HMS.DAL.Repository
         {
             try
             {
-                if (booking != null || RoomCheckAvail(booking.RoomId, booking.BookingDate))
+                if (booking != null && RoomCheckAvail(booking.RoomId, booking.BookingDate))
                 {
                     
                     Database.Booking entity = new Database.Booking();
@@ -56,7 +56,7 @@ namespace HMS.DAL.Repository
 
         public bool RoomCheckAvail(int roomId, DateTime date)
         {
-            Database.Booking avail = _dbContext.Bookings.Where(x => x.Id == roomId && x.BookingDate == date && x.Status != "Deleted").FirstOrDefault();
+            Database.Booking avail = _dbContext.Bookings.Where(x => x.RoomId == roomId && x.BookingDate == date && x.Status != "Deleted").FirstOrDefault();
             if(avail == null)
             {
                 return true;

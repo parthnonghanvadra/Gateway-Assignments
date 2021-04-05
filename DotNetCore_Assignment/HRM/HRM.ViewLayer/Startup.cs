@@ -58,7 +58,7 @@ namespace HRM.ViewLayer
                 var filters = configure.Filters;
                 filters.Add<AddCustomHeaderFilter>();
             });
-
+            services.AddResponseCaching();
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILogger<Startup> logger, ILoggerFactory loggerFactory)
@@ -68,36 +68,38 @@ namespace HRM.ViewLayer
                 app.UseDeveloperExceptionPage();
                 app.UseMigrationsEndPoint();
             }
-            //else
-            //{
-            //    app.UseExceptionHandler("/Home/Error");
-            //    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-            //    app.UseHsts();
-            //}
+            
             loggerFactory.AddFile("Logging/Logs/Logs-{Date}.txt");
             
-            app.Use(async (ctx, next) =>
-            {
-                ctx.Request.GetTypedHeaders().CacheControl = new Microsoft.Net.Http.Headers.CacheControlHeaderValue()
-                {
-                    Public = true,
-                    MaxAge = TimeSpan.FromSeconds(60)
-                };
-                await next();
-            }
-            );
-
-            app.UseResponseCaching();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
 
-            app.UseMiddleware<ResponseTimeMiddleware>(logger);
-            app.ConfigureExceptionHandler(logger);
-
             app.UseAuthentication();
             app.UseAuthorization();
+
+
+            app.UseMiddleware<ResponseTimeMiddleware>(logger);
+
+
+            app.ConfigureExceptionHandler(logger);
+
+            app.UseResponseCaching();
+
+            app.Use(async (context, next) =>
+            {
+                context.Response.GetTypedHeaders().CacheControl =
+                    new Microsoft.Net.Http.Headers.CacheControlHeaderValue()
+                    {
+                        Public = true,
+                        MaxAge = TimeSpan.FromSeconds(500)
+                    };
+                context.Response.Headers[Microsoft.Net.Http.Headers.HeaderNames.Vary] =
+                    new string[] { "Accept-Encoding" };
+
+                await next();
+            });
 
             app.UseEndpoints(endpoints =>
             {

@@ -16,6 +16,11 @@ namespace HRM.DAL.Classes
             _dbContext = db;
         }
 
+        /// <summary>
+        /// Add Department
+        /// </summary>
+        /// <param name="employee"></param>
+        /// <returns>created message if it is created.</returns>
         public string AddDepartment(Department department)
         {
             try
@@ -39,6 +44,11 @@ namespace HRM.DAL.Classes
             }
         }
 
+        /// <summary>
+        ///  Delete Department 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>deleted string if Department is deleted</returns>
         public string DeleteDepartment(int id)
         {
             var entity = _dbContext.Departments.Where(x => x.Id == id).FirstOrDefault();
@@ -51,6 +61,11 @@ namespace HRM.DAL.Classes
             return "null";
         }
 
+        /// <summary>
+        /// Edit Department
+        /// </summary>
+        /// <param name="employee"></param>
+        /// <returns>updated string if Department is updated</returns>
         public string EditDepartment(Department department)
         {
             try
@@ -71,6 +86,11 @@ namespace HRM.DAL.Classes
             }
         }
 
+        /// <summary>
+        /// Get department by id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>Department Object</returns>
         public Department GetDepartment(int id)
         {
             var entity = _dbContext.Departments.Find(id);
@@ -82,6 +102,10 @@ namespace HRM.DAL.Classes
             return entity;
         }
 
+        /// <summary>
+        /// Get all Department
+        /// </summary>
+        /// <returns>List of all Departments</returns>
         public IEnumerable<Department> GetDepartments()
         {
             var entities = _dbContext.Departments.ToList();

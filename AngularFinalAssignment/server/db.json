@@ -1,6 +1,30 @@
 {
   "company": [
     {
+<<<<<<< HEAD
+=======
+      "id": 3,
+      "name": "Google12345",
+      "email": "larypage@google.com",
+      "address": "New York, USA",
+      "totalEmployees": 600,
+      "totalBranch": 2,
+      "isActive": true,
+      "branch": [
+        {
+          "id": "",
+          "name": "Parth",
+          "address": "dwedwedew"
+        },
+        {
+          "id": 1617252461804,
+          "name": "Parth",
+          "address": "Parth"
+        }
+      ]
+    },
+    {
+>>>>>>> 444975d0d09ae8546f083dbec3fe8ef3bf9d0b1f
       "id": 1616664619595,
       "name": "Flipkart",
       "email": "flipkart@gmail.com",
@@ -13,17 +37,12 @@
           "id": 1616664619598,
           "name": "Flipkart 1",
           "address": "Ahmadabad "
-        },
-        {
-          "id": "",
-          "name": "Flipkart  2",
-          "address": "Delhi"
         }
       ]
     },
     {
       "id": 1616677296619,
-      "name": "amazon world",
+      "name": "amazon world1234",
       "email": "amazon@gmail.com",
       "address": "USA",
       "totalEmployees": 1000,
@@ -34,6 +53,27 @@
           "id": 1616677296619,
           "name": "amazon 1",
           "address": "Delhi"
+        }
+      ]
+    },
+    {
+      "id": 1617089416653,
+      "name": "cewcergtrtg",
+      "email": "parth@gmail.com",
+      "address": "Test",
+      "totalEmployees": 122,
+      "totalBranch": 1,
+      "isActive": true,
+      "branch": [
+        {
+          "id": 1617089416651,
+          "name": "Branch 1",
+          "address": "Branch 1"
+        },
+        {
+          "id": 1617252785750,
+          "name": "Branch 2",
+          "address": "Branch 2"
         }
       ]
     }

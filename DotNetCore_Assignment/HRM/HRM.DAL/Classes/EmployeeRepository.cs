@@ -16,6 +16,11 @@ namespace HRM.DAL.Classes
             _dbContext = db;
         }
 
+        /// <summary>
+        /// Add Employee
+        /// </summary>
+        /// <param name="employee"></param>
+        /// <returns>created message if it is created.</returns>
         public string AddEmployee(Employee employee)
         {
             try
@@ -39,6 +44,11 @@ namespace HRM.DAL.Classes
             }
         }
 
+        /// <summary>
+        ///  Delete Employee 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>deleted string if employee is deleted</returns>
         public string DeleteEmployee(int id)
         {
             var entity = _dbContext.Employees.Where(x => x.Id == id).FirstOrDefault();
@@ -51,6 +61,11 @@ namespace HRM.DAL.Classes
             return "null";
         }
 
+        /// <summary>
+        /// Edit employee
+        /// </summary>
+        /// <param name="employee"></param>
+        /// <returns>updated string if employee is updated</returns>
         public string EditEmployee(Employee employee)
         {
             try
@@ -77,6 +92,11 @@ namespace HRM.DAL.Classes
             }
         }
 
+        /// <summary>
+        /// Get Employee by id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>Employee Object</returns>
         public Employee GetEmployee(int id)
         {
             var entity = _dbContext.Employees.Find(id);
@@ -88,12 +108,20 @@ namespace HRM.DAL.Classes
             return entity;
         }
 
+        /// <summary>
+        /// Get all employee
+        /// </summary>
+        /// <returns>List of all employees</returns>
         public IEnumerable<Employee> GetEmployees()
         {
             var entities = _dbContext.Employees.ToList();
             return entities;
         }
 
+        /// <summary>
+        /// Get Managers
+        /// </summary>
+        /// <returns>List of all Managers</returns>
         public IEnumerable<Employee> GetManager()
         {
             var entities = _dbContext.Employees.Where(e => e.IsManager == true).ToList();

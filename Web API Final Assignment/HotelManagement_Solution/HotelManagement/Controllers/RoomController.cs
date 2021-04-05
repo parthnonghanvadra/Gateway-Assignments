@@ -63,11 +63,16 @@ namespace HotelManagement.Controllers
             return Ok();
         }
 
-        //GET: api/Room/params?city={city}&pinCode={pinCode}&price={price}&category={category}
+        //GET: api/Room/params?city={city}&pinCode={pinCode}&rs={rs}&category={category}
         [Route("api/Room/params")]
         [HttpGet]
-        public IHttpActionResult Get([FromUri]string city, [FromUri]string pinCode, [FromUri]decimal price, [FromUri]string category)
+        public IHttpActionResult Get([FromUri] string city, [FromUri] string pinCode, [FromUri] string rs, [FromUri] string category)
         {
+            if (rs == null)
+            {
+                rs = "0";
+            }
+            decimal price = Decimal.Parse(rs);
             List<Rooms> rooms = _roomManager.GetRoom(city, pinCode, price, category);
             if (!rooms.Any())
             {

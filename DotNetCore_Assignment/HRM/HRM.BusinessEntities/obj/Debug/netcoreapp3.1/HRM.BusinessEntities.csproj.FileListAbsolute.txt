@@ -6,3 +6,4 @@ D:\MyProjects\DotNetCore_Assignment\HRM\HRM.BusinessEntities\obj\Debug\netcoreap
 D:\MyProjects\DotNetCore_Assignment\HRM\HRM.BusinessEntities\obj\Debug\netcoreapp3.1\HRM.BusinessEntities.csproj.CoreCompileInputs.cache
 D:\MyProjects\DotNetCore_Assignment\HRM\HRM.BusinessEntities\obj\Debug\netcoreapp3.1\HRM.BusinessEntities.dll
 D:\MyProjects\DotNetCore_Assignment\HRM\HRM.BusinessEntities\obj\Debug\netcoreapp3.1\HRM.BusinessEntities.pdb
+D:\MyProjects\DotNetCore_Assignment\HRM\HRM.BusinessEntities\obj\Debug\netcoreapp3.1\HRM.BusinessEntities.csprojAssemblyReference.cache

@@ -48,6 +48,7 @@ namespace HRM.ViewLayer.Controllers
 
             return View(employee);
         }
+
         [ResponseCache(Duration = 60)]
         // GET: Employees/Create
         public IActionResult Create()
@@ -152,10 +153,6 @@ namespace HRM.ViewLayer.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        //private bool EmployeeExists(int id)
-        //{
-        //    return _context.Employees.Any(e => e.Id == id);
-        //}
     }
 }
 
