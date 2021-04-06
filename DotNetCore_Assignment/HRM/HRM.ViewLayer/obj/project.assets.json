@@ -9956,11 +9956,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyProjects\\DotNetCore_Assignment\\HRM\\HRM.ViewLayer\\HRM.ViewLayer.csproj",
+      "projectUniqueName": "D:\\Gateway-Assignments\\DotNetCore_Assignment\\HRM\\HRM.ViewLayer\\HRM.ViewLayer.csproj",
       "projectName": "HRM.ViewLayer",
-      "projectPath": "D:\\MyProjects\\DotNetCore_Assignment\\HRM\\HRM.ViewLayer\\HRM.ViewLayer.csproj",
+      "projectPath": "D:\\Gateway-Assignments\\DotNetCore_Assignment\\HRM\\HRM.ViewLayer\\HRM.ViewLayer.csproj",
       "packagesPath": "C:\\Users\\parth.nonghanvadra\\.nuget\\packages\\",
-      "outputPath": "D:\\MyProjects\\DotNetCore_Assignment\\HRM\\HRM.ViewLayer\\obj\\",
+      "outputPath": "D:\\Gateway-Assignments\\DotNetCore_Assignment\\HRM\\HRM.ViewLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\parth.nonghanvadra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9977,11 +9977,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\MyProjects\\DotNetCore_Assignment\\HRM\\HRM.BAL\\HRM.BAL.csproj": {
-              "projectPath": "D:\\MyProjects\\DotNetCore_Assignment\\HRM\\HRM.BAL\\HRM.BAL.csproj"
+            "D:\\Gateway-Assignments\\DotNetCore_Assignment\\HRM\\HRM.BAL\\HRM.BAL.csproj": {
+              "projectPath": "D:\\Gateway-Assignments\\DotNetCore_Assignment\\HRM\\HRM.BAL\\HRM.BAL.csproj"
             },
-            "D:\\MyProjects\\DotNetCore_Assignment\\HRM\\HRM.BusinessEntities\\HRM.BusinessEntities.csproj": {
-              "projectPath": "D:\\MyProjects\\DotNetCore_Assignment\\HRM\\HRM.BusinessEntities\\HRM.BusinessEntities.csproj"
+            "D:\\Gateway-Assignments\\DotNetCore_Assignment\\HRM\\HRM.BusinessEntities\\HRM.BusinessEntities.csproj": {
+              "projectPath": "D:\\Gateway-Assignments\\DotNetCore_Assignment\\HRM\\HRM.BusinessEntities\\HRM.BusinessEntities.csproj"
             }
           }
         }
