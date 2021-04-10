@@ -42,8 +42,8 @@ namespace UnitTestProject
         public void Capitalized()
         {
             // Arrange
-            inputString = "unit test";
-            expected = "Unit Test";
+            inputString = "unit";
+            expected = "Unit";
 
             // Act
             string output = inputString.Capitalized();

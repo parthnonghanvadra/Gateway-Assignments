@@ -9,13 +9,11 @@ namespace Testing_Assignment_2
 {
     public static class ExtensionMethods
     {
-
         /// <summary>
-        /// Converts the given string to an integer
+        /// Converts the given string to an integer.
         /// </summary>
-        /// <returns>
-        /// decimal if the given string can be converted, null otherwise
-        /// </returns>
+        /// <param name="input">String input parameter</param>
+        /// <returns>decimal if the given string can be converted, null otherwise</returns>
         public static string StringToInt(this string inputString)
         {
             try
@@ -33,6 +31,7 @@ namespace Testing_Assignment_2
         /// <summary>
         /// Word Count in given string
         /// </summary>
+        /// <param name="input">String input parameter</param>
         /// <returns>
         /// total number of words
         /// </returns>
@@ -44,6 +43,7 @@ namespace Testing_Assignment_2
         /// <summary>
         /// Remove last char from given string
         /// </summary>
+        /// <param name="input">String input parameter</param>
         /// <returns>
         /// return string
         /// </returns>
@@ -52,6 +52,12 @@ namespace Testing_Assignment_2
             return inputString.Substring(0, inputString.Length - 1);
         }
 
+        /// <summary>
+        /// indicates whether the string provided can be converted to an integer
+        /// </summary>
+        /// <param name="input">String input parameter</param>
+        /// <param name="inputString"></param>
+        /// <returns>Success if the string can be converted</returns>
         public static string CheckforInt(this string inputString)
         {
             try
@@ -69,6 +75,7 @@ namespace Testing_Assignment_2
         /// <summary>
         /// check string for upparcase
         /// </summary>
+        /// <param name="input">String input parameter</param>
         /// <returns>
         /// return upparvase if it is upparcase otherwise null
         /// </returns>
@@ -96,10 +103,11 @@ namespace Testing_Assignment_2
 
             return "null";
         }
-
+        
         /// <summary>
         /// check string for lowercase
         /// </summary>
+        /// <param name="input">String input parameter</param>
         /// <returns>
         /// return upparvase if it is lowercase otherwise null
         /// </returns>
@@ -129,30 +137,41 @@ namespace Testing_Assignment_2
         /// <summary>
         /// convert string in Title case
         /// </summary>
+        /// <param name="input">String input parameter</param>
         /// <returns>
         /// return coneverted string
         /// </returns>
         public static string TitleCase(this string inputString)
         {
-            TextInfo textInfo = new CultureInfo("en-us", false).TextInfo;
-            return textInfo.ToTitleCase(inputString);
+            string[] stringsArray = inputString.Split(' ');
+            string output = "";
+            foreach (var item in stringsArray)
+            {
+                output += item.Capitalized() + " ";
+            }
+            return output.Substring(0, output.Length-1);
         }
 
         /// <summary>
         /// convert string in Capitalized case
         /// </summary>
+        /// <param name="input">String input parameter</param>
         /// <returns>
         /// return coneverted string
         /// </returns>
         public static string Capitalized(this string inputString)
         {
-            TextInfo textInfo = new CultureInfo("en-us", false).TextInfo;
-            return textInfo.ToTitleCase(inputString);
+            if (inputString.Length > 0)
+            {
+                return char.ToUpper(inputString[0]) + inputString.Substring(1);
+            }
+            return inputString;
         }
 
         /// <summary>
         /// convert Upparcase string in lower case
         /// </summary>
+        /// <param name="input">String input parameter</param>
         /// <returns>
         /// return coneverted string
         /// </returns>
