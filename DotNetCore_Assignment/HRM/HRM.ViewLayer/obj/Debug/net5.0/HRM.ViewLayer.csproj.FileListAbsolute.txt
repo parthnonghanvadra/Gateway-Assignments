@@ -418,3 +418,4 @@ D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.ViewLayer\obj\Debug\net5.0\
 D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.ViewLayer\obj\Debug\net5.0\ref\HRM.ViewLayer.dll
 D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.ViewLayer\obj\Debug\net5.0\HRM.ViewLayer.pdb
 D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.ViewLayer\obj\Debug\net5.0\HRM.ViewLayer.genruntimeconfig.cache
+D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.ViewLayer\bin\Debug\net5.0\libman.json
