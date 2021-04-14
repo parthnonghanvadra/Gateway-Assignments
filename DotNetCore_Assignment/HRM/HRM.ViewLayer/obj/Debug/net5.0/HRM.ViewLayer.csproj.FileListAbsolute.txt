@@ -211,6 +211,7 @@ D:\MyProjects\DotNetCore_Assignment\HRM\HRM.ViewLayer\bin\Debug\net5.0\Serilog.S
 D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.ViewLayer\bin\Debug\net5.0\nlog.config
 D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.ViewLayer\bin\Debug\net5.0\appsettings.Development.json
 D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.ViewLayer\bin\Debug\net5.0\appsettings.json
+D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.ViewLayer\bin\Debug\net5.0\libman.json
 D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.ViewLayer\bin\Debug\net5.0\HRM.ViewLayer.StaticWebAssets.xml
 D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.ViewLayer\bin\Debug\net5.0\HRM.ViewLayer.exe
 D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.ViewLayer\bin\Debug\net5.0\HRM.ViewLayer.deps.json
@@ -418,4 +419,3 @@ D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.ViewLayer\obj\Debug\net5.0\
 D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.ViewLayer\obj\Debug\net5.0\ref\HRM.ViewLayer.dll
 D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.ViewLayer\obj\Debug\net5.0\HRM.ViewLayer.pdb
 D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.ViewLayer\obj\Debug\net5.0\HRM.ViewLayer.genruntimeconfig.cache
-D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.ViewLayer\bin\Debug\net5.0\libman.json
