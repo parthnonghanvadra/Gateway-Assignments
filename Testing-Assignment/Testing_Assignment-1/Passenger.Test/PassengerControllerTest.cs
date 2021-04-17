@@ -1,9 +1,6 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Moq;
-using Newtonsoft.Json;
+﻿using Moq;
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Web.Http.Results;
 using Testing_Assignment_1.Controllers;
 using Testing_Assignment_1.Repository;
@@ -12,7 +9,6 @@ using Xunit;
 
 namespace Passenger.Test
 {
-    [TestClass]
     public class PassengerControllerTest
     {
         private readonly Mock<IDataRepository> mockDtaRepository = new Mock<IDataRepository>();
@@ -33,7 +29,7 @@ namespace Passenger.Test
             var response = _passengerController.Get();
 
             // Asert
-            Xunit.Assert.Equal(3, response.Count);
+            Assert.Equal(3, response.Count);
 
         }
 
@@ -41,15 +37,16 @@ namespace Passenger.Test
         public void Test_DeleteUser()
         {
             var passenger = new Testing_Assignment_1.Models.Passenger();
-            passenger.Id = Guid.NewGuid(); ;
+            passenger.Id = Guid.NewGuid(); 
+
             // Arrange
             var resultObj = mockDtaRepository.Setup(x => x.Delete(passenger.Id)).Returns(true);
 
             // Act
             var response = _passengerController.Delete(passenger.Id);
 
-            //Assert
-            Xunit.Assert.True(response);
+            // Assert
+            Assert.True(response);
 
         }
 
@@ -57,7 +54,6 @@ namespace Passenger.Test
         public void Test_GetUserById()
         {
             // Arrange
-            
             var newPassenger = new Testing_Assignment_1.Models.Passenger();
             newPassenger.Id = Guid.NewGuid();
             newPassenger.FirstName = "Parth";
@@ -67,14 +63,16 @@ namespace Passenger.Test
             // Act
             var responseObj = mockDtaRepository.Setup(x => x.GetById(newPassenger.Id)).Returns(newPassenger);
             var result = _passengerController.Get(newPassenger.Id);
-            var isNull = Xunit.Assert.IsType<OkNegotiatedContentResult<Testing_Assignment_1.Models.Passenger>>(result);
+            var isNull = Assert.IsType<OkNegotiatedContentResult<Testing_Assignment_1.Models.Passenger>>(result);
+
             // Assert
-            Xunit.Assert.NotNull(isNull);
+            Assert.NotNull(isNull);
         }
 
         [Fact]
         public void Test_AddUser()
         {
+            // Arrange
             var newPassenger = new Testing_Assignment_1.Models.Passenger();
             newPassenger.Id = Guid.NewGuid();
             newPassenger.FirstName = "Parth";
@@ -86,7 +84,7 @@ namespace Passenger.Test
             var result = _passengerController.Post(newPassenger);
 
             // Assert
-            Xunit.Assert.NotNull(result);
+            Assert.NotNull(result);
         }
 
         [Fact]
@@ -98,8 +96,9 @@ namespace Passenger.Test
             // Act
             var resultObj = mockDtaRepository.Setup(x => x.Update(model)).Returns(model);
             var response = _passengerController.Put(model);
+
             // Assert
-            Xunit.Assert.Equal(model, response);
+            Assert.Equal(model, response);
         }
 
 
