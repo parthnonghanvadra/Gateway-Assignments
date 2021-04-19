@@ -127,9 +127,9 @@ namespace Services
         public async Task<IEnumerable<User>> GetUsersData()
         {
             User[] users = new User[] {
-                new User{ Id = 1, Name = "Kuldip", Email = "kuldip.patel@gmail.com", Address = "Rajkot"},
+                new User{ Id = 1, Name = "Abhishek", Email = "abhishek.patel@gmail.com", Address = "Rajkot"},
                 new User{ Id = 2, Name = "Parth", Email = "parth.patel@gmail.com", Address = "Ahmedabad"},
-                new User{ Id = 3, Name = "Rushi", Email = "rushi.patel@gmail.com", Address = null},
+                new User{ Id = 3, Name = "Darshit", Email = "darshit.patel@gmail.com", Address = null},
             };
 
             await Task.Delay(100);
