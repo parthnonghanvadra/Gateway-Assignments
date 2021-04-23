@@ -10,11 +10,11 @@
         "projectUniqueName": "D:\\Gateway-Assignments\\Jasmin + Karma Assignments\\Assignment7\\NUnitAssignment7\\NUnitTestProject\\NUnitTestProject.csproj",
         "projectName": "NUnitTestProject",
         "projectPath": "D:\\Gateway-Assignments\\Jasmin + Karma Assignments\\Assignment7\\NUnitAssignment7\\NUnitTestProject\\NUnitTestProject.csproj",
-        "packagesPath": "C:\\Users\\Royal\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\parth.nonghanvadra\\.nuget\\packages\\",
         "outputPath": "D:\\Gateway-Assignments\\Jasmin + Karma Assignments\\Assignment7\\NUnitAssignment7\\NUnitTestProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Royal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\parth.nonghanvadra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -82,11 +82,11 @@
         "projectUniqueName": "D:\\Gateway-Assignments\\Jasmin + Karma Assignments\\Assignment7\\NUnitAssignment7\\Services\\Services.csproj",
         "projectName": "Services",
         "projectPath": "D:\\Gateway-Assignments\\Jasmin + Karma Assignments\\Assignment7\\NUnitAssignment7\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\Royal\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\parth.nonghanvadra\\.nuget\\packages\\",
         "outputPath": "D:\\Gateway-Assignments\\Jasmin + Karma Assignments\\Assignment7\\NUnitAssignment7\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Royal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\parth.nonghanvadra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -126,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
