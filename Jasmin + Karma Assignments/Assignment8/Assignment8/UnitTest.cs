@@ -72,19 +72,14 @@ namespace Assignment8
             string value = _service.GetName();
 
             value.Should().NotBeNullOrWhiteSpace()
-            .And.Contain("kuldip")
-            .And.Contain("l", Exactly.Thrice())
-            .And.Be("kuldip ladola")
-            .And.NotBe("ladola kuldip")
+            .And.Contain("Parth")
+            .And.Contain("a", Exactly.Thrice())
+            .And.Be("Parth Nonghanvadra")
+            .And.NotBe("Nonghanvadra Parth")
             .And.BeOneOf(
-                "kuldip ladola",
-                "ladola kuldip"
+                "Parth Nonghanvadra",
+                "Nonghanvadra Parth"
             );
         }
-
-
-
-
-
     }
 }
