@@ -6,6 +6,10 @@ namespace Services
 {
     public class Service
     {
+        /// <summary>
+        /// For String Array
+        /// </summary>
+        /// <returns>List of strings</returns>
         public async Task<IEnumerable<string>> GetStringArray()
         {
             IEnumerable<string> someStrings = new[] { "abc", "cat", "bad", "hat" };
@@ -15,6 +19,10 @@ namespace Services
             return someStrings;
         }
 
+        /// <summary>
+        /// For get users data
+        /// </summary>
+        /// <returns>List of the users data</returns>
         public async Task<IEnumerable<User>> GetUsersData()
         {
             User[] users = new User[] {
@@ -28,6 +36,11 @@ namespace Services
             return users;
         }
 
+        /// <summary>
+        /// for generate table of given number
+        /// </summary>
+        /// <param name="number"></param>
+        /// <returns>array of int</returns>
         public int[] GetTable(int number)
         {
             int[] table = new int[10];
@@ -38,9 +51,22 @@ namespace Services
             return table;
         }
 
+        /// <summary>
+        /// For Get Name
+        /// </summary>
+        /// <returns>name</returns>
         public string GetName()
         {
-            return "Parth Nonghanvadra";
+            return "parth nonghanvadra";
+        }
+
+        /// <summary>
+        /// For Get Submission date
+        /// </summary>
+        /// <returns>submission date</returns>
+        public DateTime GetSubmissionDate()
+        {
+            return new DateTime(2021, 04, 23);
         }
     }
 
@@ -52,6 +78,7 @@ namespace Services
         public string Address { get; set; }
     }
 
+    
 
 
 }

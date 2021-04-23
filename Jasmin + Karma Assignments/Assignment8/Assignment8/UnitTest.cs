@@ -3,6 +3,8 @@ using FluentAssertions;
 using Services;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using System;
+using FluentAssertions.Extensions;
 
 namespace Assignment8
 {
@@ -16,8 +18,8 @@ namespace Assignment8
             _service = new Service();
         }
 
-
-        /// Testing Async Method
+        /// <summary>
+        ///  Testing Method with FluentAssertions
         /// </summary>
         /// <returns></returns>
 
@@ -32,7 +34,7 @@ namespace Assignment8
         }
 
         /// <summary>
-        /// Testing Async Method
+        /// Testing Method with FluentAssertions
         /// </summary>
         /// <returns></returns>
 
@@ -52,13 +54,20 @@ namespace Assignment8
              .And.No.Property("Id").LessThanOrEqualTo(0));
         }
 
+        /// <summary>
+        /// Testing Method with FluentAssertions
+        /// </summary>
+        /// <returns></returns>
         [Test]
         public void GetTable_Test()
         {
+            // Arrange
             int number = 5;
 
+            // Act
             int[] data = _service.GetTable(number);
 
+            // Assert
             data.Should().NotBeEmpty()
            .And.HaveCount(10)
            .And.AllBeOfType(typeof(int))
@@ -66,20 +75,49 @@ namespace Assignment8
            .And.EndWith(number * 10);
         }
 
+        /// <summary>
+        /// Testing Method with FluentAssertions 
+        /// </summary>
+        /// <returns></returns>
         [Test]
         public void GetName_Test()
         {
+            // Act
             string value = _service.GetName();
 
+            // Assert
             value.Should().NotBeNullOrWhiteSpace()
-            .And.Contain("Parth")
-            .And.Contain("a", Exactly.Thrice())
-            .And.Be("Parth Nonghanvadra")
-            .And.NotBe("Nonghanvadra Parth")
+            .And.Contain("parth")
+            .And.Contain("n", Exactly.Thrice())
+            .And.Be("parth nonghanvadra")
+            .And.NotBe("nonghanvadra parth")
             .And.BeOneOf(
-                "Parth Nonghanvadra",
-                "Nonghanvadra Parth"
+                "parth nonghanvadra",
+                "nonghanvadra parth"
             );
         }
+
+        /// <summary>
+        /// Testing Method with FluentAssertions
+        /// </summary>
+        [Test]
+        public void Date_Test()
+        {
+            // Arrange
+            DateTime deadline = new DateTime(2021, 04, 24);
+
+            // Act
+            DateTime? date = _service.GetSubmissionDate();
+
+            // Assert
+            date.Should().Be(23.April(2021))
+            .And.BeBefore(deadline)
+            .And.NotBeAfter(deadline)
+            .And.HaveDay(23)
+            .And.HaveMonth(04)
+            .And.HaveYear(2021)
+            .And.BeMoreThan(0.Days()).Before(deadline);
+        }
+
     }
 }
