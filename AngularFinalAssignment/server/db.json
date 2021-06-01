@@ -73,6 +73,22 @@
           "address": "Branch 2"
         }
       ]
+    },
+    {
+      "id": 1619438775587,
+      "name": "demohggffy",
+      "email": "cddcsd@dsada.cc",
+      "address": "cascsacs",
+      "totalEmployees": 12,
+      "totalBranch": 1,
+      "isActive": true,
+      "branch": [
+        {
+          "id": "",
+          "name": "dcdscsd",
+          "address": "cdc"
+        }
+      ]
     }
   ]
 }
