@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyProjects\\DotNetCore_Assignment\\HRM\\HRM.BusinessEntities\\HRM.BusinessEntities.csproj": {}
+    "D:\\Gateway-Assignments\\DotNetCore_Assignment\\HRM\\HRM.BusinessEntities\\HRM.BusinessEntities.csproj": {}
   },
   "projects": {
-    "D:\\MyProjects\\DotNetCore_Assignment\\HRM\\HRM.BusinessEntities\\HRM.BusinessEntities.csproj": {
+    "D:\\Gateway-Assignments\\DotNetCore_Assignment\\HRM\\HRM.BusinessEntities\\HRM.BusinessEntities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyProjects\\DotNetCore_Assignment\\HRM\\HRM.BusinessEntities\\HRM.BusinessEntities.csproj",
+        "projectUniqueName": "D:\\Gateway-Assignments\\DotNetCore_Assignment\\HRM\\HRM.BusinessEntities\\HRM.BusinessEntities.csproj",
         "projectName": "HRM.BusinessEntities",
-        "projectPath": "D:\\MyProjects\\DotNetCore_Assignment\\HRM\\HRM.BusinessEntities\\HRM.BusinessEntities.csproj",
+        "projectPath": "D:\\Gateway-Assignments\\DotNetCore_Assignment\\HRM\\HRM.BusinessEntities\\HRM.BusinessEntities.csproj",
         "packagesPath": "C:\\Users\\parth.nonghanvadra\\.nuget\\packages\\",
-        "outputPath": "D:\\MyProjects\\DotNetCore_Assignment\\HRM\\HRM.BusinessEntities\\obj\\",
+        "outputPath": "D:\\Gateway-Assignments\\DotNetCore_Assignment\\HRM\\HRM.BusinessEntities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\parth.nonghanvadra\\AppData\\Roaming\\NuGet\\NuGet.Config",

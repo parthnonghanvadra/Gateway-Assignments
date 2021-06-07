@@ -13,126 +13,126 @@ namespace UnitTestProject
         [Fact]
         public void UpparToLower()
         {
-            //Arrange
+            // Arrange
             inputString = "Unit Test";
             expected = "uNIT tEST";
 
-            //Act
+            // Act
             string output = inputString.InverseCase();
 
-            //Assert
+            // Assert
             Xunit.Assert.Equal(expected, output);
         }
 
         [Fact]
         public void TitleCase()
         {
-            //Arrange
+            // Arrange
             inputString = "unit test";
             expected = "Unit Test";
 
-            //Act
+            // Act
             string output = inputString.TitleCase();
 
-            //Assert
+            // Assert
             Xunit.Assert.Equal(expected, output);
         }
 
         [Fact]
         public void Capitalized()
         {
-            //Arrange
-            inputString = "unit test";
-            expected = "Unit Test";
+            // Arrange
+            inputString = "unit";
+            expected = "Unit";
 
-            //Act
+            // Act
             string output = inputString.Capitalized();
 
-            //Assert
+            // Assert
             Xunit.Assert.Equal(expected, output);
         }
 
         [Fact]
         public void CheckLower()
         {
-            //Arrange
+            // Arrange
             inputString = "unit test";
             expected = "lowerCase";
 
-            //Act
+            // Act
             string output = inputString.CheckLower();
 
-            //Assert
+            // Assert
             Xunit.Assert.Equal(expected, output);
         }
 
         [Fact]
         public void CheckUppar()
         {
-            //Arrange
+            // Arrange
             inputString = "unit test";
             expected = "null";
 
-            //Act
+            // Act
             string output = inputString.CheckUppar();
 
-            //Assert
+            // Assert
             Xunit.Assert.Equal(expected, output);
         }
 
         [Fact]
         public void CheckforInt()
         {
-            //Arrange
+            // Arrange
             inputString = "100";
             expected = "Success";
 
-            //Act
+            // Act
             string output = inputString.CheckforInt();
 
-            //Assert
+            // Assert
             Xunit.Assert.Equal(expected, output);
         }
 
         [Fact]
         public void RemoveLastChar()
         {
-            //Arrange
+            // Arrange
             inputString = "Unit Test";
             expected = "Unit Tes";
 
-            //Act
+            // Act
             string output = inputString.RemoveLastChar();
 
-            //Assert
+            // Assert
             Xunit.Assert.Equal(expected, output);
         }
 
         [Fact]
         public void WordCount()
         {
-            //Arrange
+            // Arrange
             inputString = "Unit Test";
             expected = "9";
 
-            //Act
+            // Act
             string output = inputString.WordCount();
 
-            //Assert
+            // Assert
             Xunit.Assert.Equal(expected, output);
         }
 
         [Fact]
         public void StringToInt()
         {
-            //Arrange
+            // Arrange
             inputString = "100";
             expected = "100";
 
-            //Act
+            // Act
             string output = inputString.StringToInt();
 
-            //Assert
+            // Assert
             Xunit.Assert.Equal(expected, output);
         }
     }

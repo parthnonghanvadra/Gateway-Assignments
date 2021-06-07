@@ -19,6 +19,12 @@ namespace Testing_Assignment_1.Repository
             _passenger.Add(id3, new Passenger() { Id = id3, FisrtName = "Darshit", LastName = "Rawal", PhoneNumber = "9876543210" });
 
         }
+
+        /// <summary>
+        /// Add new Passenger to Dictionary
+        /// </summary>
+        /// <param name="passenger"></param>
+        /// <returns>Passenger Detail</returns>
         public Passenger AddUser(Passenger passenger)
         {
 
@@ -28,6 +34,11 @@ namespace Testing_Assignment_1.Repository
             return passenger;
         }
 
+        /// <summary>
+        /// Update Details of Passenger to Dictionary
+        /// </summary>
+        /// <param name="passenger"></param>
+        /// <returns>Updated Passenger details</returns>
         public Passenger Update(Passenger passenger)
         {
             Passenger obj = GetById(passenger.Id);
@@ -37,17 +48,31 @@ namespace Testing_Assignment_1.Repository
             return passenger;
         }
 
+        /// <summary>
+        /// Delete Passenger from Dictionary
+        /// </summary>
+        /// <param name="Id"></param>
+        /// <returns>true if passenger is deleted otherwise false</returns>
         public bool Delete(Guid Id)
         {
             var result = _passenger.Remove(Id);
             return result;
         }
 
+        /// <summary>
+        /// Get Details of Passenger from Dictionary
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>Passenger Details of given Id</returns>
         public Passenger GetById(Guid id)
         {
             return _passenger.FirstOrDefault(x => x.Key == id).Value;
         }
 
+        /// <summary>
+        /// Get List of Passengers from Dictionary
+        /// </summary>
+        /// <returns>List of Passengers</returns>
         public IList<Passenger> getPassengersList()
         {
             return _passenger.Select(x => x.Value).ToList();

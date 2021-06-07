@@ -10,3 +10,15 @@ D:\MyProjects\DotNetCore_Assignment\HRM\HRM.DAL\obj\Debug\netcoreapp3.1\HRM.DAL.
 D:\MyProjects\DotNetCore_Assignment\HRM\HRM.DAL\bin\Debug\netcoreapp3.1\HRM.BusinessEntities.dll
 D:\MyProjects\DotNetCore_Assignment\HRM\HRM.DAL\bin\Debug\netcoreapp3.1\HRM.BusinessEntities.pdb
 D:\MyProjects\DotNetCore_Assignment\HRM\HRM.DAL\obj\Debug\netcoreapp3.1\HRM.DAL.csproj.CopyComplete
+D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.DAL\bin\Debug\netcoreapp3.1\HRM.DAL.deps.json
+D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.DAL\bin\Debug\netcoreapp3.1\HRM.DAL.dll
+D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.DAL\bin\Debug\netcoreapp3.1\HRM.DAL.pdb
+D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.DAL\bin\Debug\netcoreapp3.1\HRM.BusinessEntities.dll
+D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.DAL\bin\Debug\netcoreapp3.1\HRM.BusinessEntities.pdb
+D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.DAL\obj\Debug\netcoreapp3.1\HRM.DAL.csprojAssemblyReference.cache
+D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.DAL\obj\Debug\netcoreapp3.1\HRM.DAL.AssemblyInfoInputs.cache
+D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.DAL\obj\Debug\netcoreapp3.1\HRM.DAL.AssemblyInfo.cs
+D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.DAL\obj\Debug\netcoreapp3.1\HRM.DAL.csproj.CoreCompileInputs.cache
+D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.DAL\obj\Debug\netcoreapp3.1\HRM.DAL.csproj.CopyComplete
+D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.DAL\obj\Debug\netcoreapp3.1\HRM.DAL.dll
+D:\Gateway-Assignments\DotNetCore_Assignment\HRM\HRM.DAL\obj\Debug\netcoreapp3.1\HRM.DAL.pdb

@@ -93,7 +93,7 @@ namespace HRM.ViewLayer
                     new Microsoft.Net.Http.Headers.CacheControlHeaderValue()
                     {
                         Public = true,
-                        MaxAge = TimeSpan.FromSeconds(500)
+                        MaxAge = TimeSpan.FromMilliseconds(5000)
                     };
                 context.Response.Headers[Microsoft.Net.Http.Headers.HeaderNames.Vary] =
                     new string[] { "Accept-Encoding" };
