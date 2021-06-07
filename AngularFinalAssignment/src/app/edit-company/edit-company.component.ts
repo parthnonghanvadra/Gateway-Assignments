@@ -70,7 +70,6 @@ export class EditCompanyComponent implements OnInit {
         res => {
           
           this.router.navigate(['/dashboard']);
-          setTimeout("location.reload(true);", 100);
           this.addCompanyForm.reset();
         }
       );

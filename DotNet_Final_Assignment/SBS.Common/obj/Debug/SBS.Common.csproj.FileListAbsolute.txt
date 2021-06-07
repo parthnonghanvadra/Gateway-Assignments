@@ -3,3 +3,9 @@ D:\C#Fundamentals\ServiceBookingSystem_Solution\SBS.Common\bin\Debug\SBS.Common.
 D:\C#Fundamentals\ServiceBookingSystem_Solution\SBS.Common\obj\Debug\SBS.Common.csproj.CoreCompileInputs.cache
 D:\C#Fundamentals\ServiceBookingSystem_Solution\SBS.Common\obj\Debug\SBS.Common.dll
 D:\C#Fundamentals\ServiceBookingSystem_Solution\SBS.Common\obj\Debug\SBS.Common.pdb
+D:\Gateway-Assignments\DotNet_Final_Assignment\SBS.Common\bin\Debug\SBS.Common.dll
+D:\Gateway-Assignments\DotNet_Final_Assignment\SBS.Common\bin\Debug\SBS.Common.pdb
+D:\Gateway-Assignments\DotNet_Final_Assignment\SBS.Common\obj\Debug\SBS.Common.csprojAssemblyReference.cache
+D:\Gateway-Assignments\DotNet_Final_Assignment\SBS.Common\obj\Debug\SBS.Common.csproj.CoreCompileInputs.cache
+D:\Gateway-Assignments\DotNet_Final_Assignment\SBS.Common\obj\Debug\SBS.Common.dll
+D:\Gateway-Assignments\DotNet_Final_Assignment\SBS.Common\obj\Debug\SBS.Common.pdb
