@@ -17,7 +17,7 @@
         {
           "id": 1617252461804,
           "name": "Parth",
-          "address": "Parth"
+          "address": "Ahmedabad "
         }
       ]
     },
@@ -71,22 +71,6 @@
           "id": 1617252785750,
           "name": "Branch 2",
           "address": "Branch 2"
-        }
-      ]
-    },
-    {
-      "id": 1619438775587,
-      "name": "demohggffy",
-      "email": "cddcsd@dsada.cc",
-      "address": "cascsacs",
-      "totalEmployees": 12,
-      "totalBranch": 1,
-      "isActive": true,
-      "branch": [
-        {
-          "id": "",
-          "name": "dcdscsd",
-          "address": "cdc"
         }
       ]
     }
