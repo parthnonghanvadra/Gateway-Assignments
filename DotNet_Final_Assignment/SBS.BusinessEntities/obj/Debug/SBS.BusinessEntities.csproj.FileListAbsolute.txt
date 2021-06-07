@@ -4,3 +4,9 @@ D:\C#Fundamentals\ServiceBookingSystem_Solution\SBS.BusinessEntities\obj\Debug\S
 D:\C#Fundamentals\ServiceBookingSystem_Solution\SBS.BusinessEntities\obj\Debug\SBS.BusinessEntities.dll
 D:\C#Fundamentals\ServiceBookingSystem_Solution\SBS.BusinessEntities\obj\Debug\SBS.BusinessEntities.pdb
 D:\C#Fundamentals\ServiceBookingSystem_Solution\SBS.BusinessEntities\obj\Debug\SBS.BusinessEntities.csprojAssemblyReference.cache
+D:\Gateway-Assignments\DotNet_Final_Assignment\SBS.BusinessEntities\bin\Debug\SBS.BusinessEntities.dll
+D:\Gateway-Assignments\DotNet_Final_Assignment\SBS.BusinessEntities\bin\Debug\SBS.BusinessEntities.pdb
+D:\Gateway-Assignments\DotNet_Final_Assignment\SBS.BusinessEntities\obj\Debug\SBS.BusinessEntities.csprojAssemblyReference.cache
+D:\Gateway-Assignments\DotNet_Final_Assignment\SBS.BusinessEntities\obj\Debug\SBS.BusinessEntities.csproj.CoreCompileInputs.cache
+D:\Gateway-Assignments\DotNet_Final_Assignment\SBS.BusinessEntities\obj\Debug\SBS.BusinessEntities.dll
+D:\Gateway-Assignments\DotNet_Final_Assignment\SBS.BusinessEntities\obj\Debug\SBS.BusinessEntities.pdb
