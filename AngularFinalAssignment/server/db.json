@@ -52,27 +52,6 @@
           "address": "Delhi"
         }
       ]
-    },
-    {
-      "id": 1617089416653,
-      "name": "cewcergtrtg",
-      "email": "parth@gmail.com",
-      "address": "Test",
-      "totalEmployees": 122,
-      "totalBranch": 1,
-      "isActive": true,
-      "branch": [
-        {
-          "id": 1617089416651,
-          "name": "Branch 1",
-          "address": "Branch 1"
-        },
-        {
-          "id": 1617252785750,
-          "name": "Branch 2",
-          "address": "Branch 2"
-        }
-      ]
     }
   ]
 }
