@@ -204,20 +204,12 @@
                               <span
                                 class="text-danger"
                                 *ngIf="
-                                  (registerFormControl.name.touched ||
-                                    submitted) &&
-                                  registerFormControl.name.errors?.required
+                                  (branch.get('name')?.touched || submitted) &&
+                                  branch.get('name')?.errors?.required
                                 "
                               >
                                 this field is required
                               </span>
-                              <span
-                                *ngIf="
-                                  registerFormControl.name.hasError('minlength')
-                                "
-                                class="text-danger"
-                                >Please Enter At least 8 char</span
-                              >
                             </div>
                             <div class="form-group">
                               <label class="mb-1" for="address">Address</label>
@@ -232,9 +224,9 @@
                               <span
                                 class="text-danger"
                                 *ngIf="
-                                  (registerFormControl.address.touched ||
+                                  (branch.get('address')?.touched ||
                                     submitted) &&
-                                  registerFormControl.address.errors?.required
+                                  branch.get('address')?.errors?.required
                                 "
                               >
                                 this field is required

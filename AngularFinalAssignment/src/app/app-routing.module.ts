@@ -6,21 +6,25 @@ import { EditCompanyComponent } from './company/edit-company/edit-company.compon
 
 const routes: Routes = [
   {
-    path: '',    
-    redirectTo: 'dashboard',    
-    pathMatch: 'full',    
+    path: '',
+    redirectTo: 'dashboard',
+    pathMatch: 'full',
   },
   {
-    path : 'dashboard',
-    component : DashboardComponent
+    path: 'dashboard',
+    component: DashboardComponent
   },
   {
-    path : 'add-company',
-    component : AddCompanyComponent
+    path: 'add-company',
+    component: AddCompanyComponent
   },
   {
-    path : 'edit-company',
-    component : EditCompanyComponent
+    path: 'edit-company',
+    component: EditCompanyComponent
+  },
+  {
+    path: '**',
+    redirectTo: 'dashboard'
   },
 
 ];

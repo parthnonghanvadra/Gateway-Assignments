@@ -50,8 +50,8 @@ export class EditCompanyComponent implements OnInit {
   onCreate(): FormGroup {
     return this.formBuilder.group({
       id: Math.floor(Math.random() * 10) + (new Date()).getTime(),
-      name: '',
-      address: ''
+      name: ['', Validators.required],
+      address: ['', Validators.required]
     })
   }
 
