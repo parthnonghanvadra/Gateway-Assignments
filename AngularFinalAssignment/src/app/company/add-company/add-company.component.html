@@ -204,14 +204,12 @@
                             <span
                               class="text-danger"
                               *ngIf="
-                                (branch.get('name')?.touched ||
-                                  submitted) &&
-                                  branch.get('name')?.errors?.required
+                                (branch.get('name')?.touched || submitted) &&
+                                branch.get('name')?.errors?.required
                               "
                             >
                               this field is required
                             </span>
-                            
                           </div>
                           <div class="form-group">
                             <label class="mb-1" for="address">Address</label>
@@ -226,9 +224,14 @@
                             <span
                               class="text-danger"
                               *ngIf="
+<<<<<<< HEAD
                                 (branch.get('address')?.touched ||
                                   submitted) &&
                                   branch.get('address')?.errors?.required
+=======
+                                (branch.get('address')?.touched || submitted) &&
+                                branch.get('address')?.errors?.required
+>>>>>>> fe8c57533fbba001229aae2178f6dda6fab232a5
                               "
                             >
                               this field is required

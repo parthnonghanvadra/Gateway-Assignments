@@ -1,0 +1,13 @@
+D:\Gateway-Assignments\C#_Advance_Assignment\CSharp_Recap\CSharp_Recap\bin\Debug\netcoreapp3.1\CSharp_Recap.exe
+D:\Gateway-Assignments\C#_Advance_Assignment\CSharp_Recap\CSharp_Recap\bin\Debug\netcoreapp3.1\CSharp_Recap.deps.json
+D:\Gateway-Assignments\C#_Advance_Assignment\CSharp_Recap\CSharp_Recap\bin\Debug\netcoreapp3.1\CSharp_Recap.runtimeconfig.json
+D:\Gateway-Assignments\C#_Advance_Assignment\CSharp_Recap\CSharp_Recap\bin\Debug\netcoreapp3.1\CSharp_Recap.runtimeconfig.dev.json
+D:\Gateway-Assignments\C#_Advance_Assignment\CSharp_Recap\CSharp_Recap\bin\Debug\netcoreapp3.1\CSharp_Recap.dll
+D:\Gateway-Assignments\C#_Advance_Assignment\CSharp_Recap\CSharp_Recap\bin\Debug\netcoreapp3.1\CSharp_Recap.pdb
+D:\Gateway-Assignments\C#_Advance_Assignment\CSharp_Recap\CSharp_Recap\obj\Debug\netcoreapp3.1\CSharp_Recap.csprojAssemblyReference.cache
+D:\Gateway-Assignments\C#_Advance_Assignment\CSharp_Recap\CSharp_Recap\obj\Debug\netcoreapp3.1\CSharp_Recap.AssemblyInfoInputs.cache
+D:\Gateway-Assignments\C#_Advance_Assignment\CSharp_Recap\CSharp_Recap\obj\Debug\netcoreapp3.1\CSharp_Recap.AssemblyInfo.cs
+D:\Gateway-Assignments\C#_Advance_Assignment\CSharp_Recap\CSharp_Recap\obj\Debug\netcoreapp3.1\CSharp_Recap.csproj.CoreCompileInputs.cache
+D:\Gateway-Assignments\C#_Advance_Assignment\CSharp_Recap\CSharp_Recap\obj\Debug\netcoreapp3.1\CSharp_Recap.dll
+D:\Gateway-Assignments\C#_Advance_Assignment\CSharp_Recap\CSharp_Recap\obj\Debug\netcoreapp3.1\CSharp_Recap.pdb
+D:\Gateway-Assignments\C#_Advance_Assignment\CSharp_Recap\CSharp_Recap\obj\Debug\netcoreapp3.1\CSharp_Recap.genruntimeconfig.cache
