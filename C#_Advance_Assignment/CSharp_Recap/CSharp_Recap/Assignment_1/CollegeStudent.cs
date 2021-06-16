@@ -2,11 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CSharp_Recap
+namespace CSharp_Recap.Assignment_1
 {
-    public class SchoolStudent
+    public class CollegeStudent
     {
-        public SchoolStudent(int id, string firstName, string lastName, int age, bool interestedInSports, 
+        public CollegeStudent()
+        {
+        }
+
+        public CollegeStudent(int id, string firstName, string lastName, int age, bool interestedInSports,
             bool interestedInMusic, bool isSchoolStudent, DateTime registerationTime, string address)
         {
             Id = id;
